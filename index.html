@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人作品展示</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">我的作品集</h1>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#products">我的产品</a></li>
+                <li><a href="#competition">我的比赛</a></li>
+                <li><a href="#rockets">我的火箭</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>欢迎来到我的个人网站</h2>
+            <p>展示我的创意作品与成就</p>
+        </div>
+    </section>
+
+    <section id="products" class="section">
+        <div class="container">
+            <h2 class="section-title">我的产品</h2>
+            
+            <div class="product-item">
+                <h3>全功能航电一代</h3>
+                <div class="media-row">
+                    <img src="img/p1.jpg" alt="01.jpg" onclick="openLightbox(this.src, 'image')">
+                </div>
+            </div>
+
+            <div class="product-item">
+                <h3>制导战斗部</h3>
+                <div class="media-row">
+                    <img src="img/p2.jpg" alt="01.jpg" onclick="openLightbox(this.src, 'image')">
+                    <img src="img/p3.jpg" alt="02.jpg" onclick="openLightbox(this.src, 'image')">
+                </div>
+            </div>
+
+            <div class="product-item">
+                <h3>推力采集卡</h3>
+                <div class="media-row">
+                    <img src="img/p4.jpg" alt="01.jpg" onclick="openLightbox(this.src, 'image')">
+                </div>
+            </div>
+
+            <div class="product-item">
+                <h3>火箭姿态控制一代</h3>
+                <div class="media-row">
+                    <img src="img/p5.jpg" alt="01.jpg" onclick="openLightbox(this.src, 'image')">
+                </div>
+            </div>
+
+            <div class="product-item">
+                <h3>火箭延时开伞</h3>
+                <div class="media-row">
+                    <img src="img/p6.jpg" alt="01.jpg" onclick="openLightbox(this.src, 'image')">
+                    <div class="video-item" onclick="openLightbox('img/p7.mp4', 'video')">
+                        <img src="img/p7.jpg" alt="02.mp4">
+                        <div class="play-btn">▶</div>
+                        <span>02.mp4</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-item">
+                <h3>火箭高度计</h3>
+                <div class="media-row">
+                    <img src="img/p8.jpg" alt="01.jpg" onclick="openLightbox(this.src, 'image')">
+                    <div class="video-item" onclick="openLightbox('img/p9.mp4', 'video')">
+                        <img src="img/p9.jpg" alt="02.mp4">
+                        <div class="play-btn">▶</div>
+                        <span>02.mp4</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="competition" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">我的比赛</h2>
+            
+            <div class="product-item">
+                <h3>我的荣誉</h3>
+                <div class="media-row">
+                    <img src="img/c10.jpg" alt="01.jpg" onclick="openLightbox(this.src, 'image')">
+                    <img src="img/c11.jpg" alt="02.jpg" onclick="openLightbox(this.src, 'image')">
+                    <img src="img/c12.jpg" alt="03.jpg" onclick="openLightbox(this.src, 'image')">
+                    <img src="img/c13.jpg" alt="04.jpg" onclick="openLightbox(this.src, 'image')">
+                    <img src="img/c14.jpg" alt="05.jpg" onclick="openLightbox(this.src, 'image')">
+                    <img src="img/c15.jpg" alt="06.jpg" onclick="openLightbox(this.src, 'image')">
+                    <img src="img/c16.jpg" alt="07.jpg" onclick="openLightbox(this.src, 'image')">
+                    <img src="img/c17.jpg" alt="08.jpg" onclick="openLightbox(this.src, 'image')">
+                    <img src="img/c18.jpg" alt="09.jpg" onclick="openLightbox(this.src, 'image')">
+                    <img src="img/c19.jpg" alt="10.jpg" onclick="openLightbox(this.src, 'image')">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rockets" class="section">
+        <div class="container">
+            <h2 class="section-title">我的火箭</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-date">2023-7-8</div>
+                        <h3>探索一号火箭</h3>
+                        <div class="media-row">
+                            <img src="img/r21.jpg" alt="01.jpg" onclick="openLightbox(this.src, 'image')">
+                            <div class="video-item" onclick="openLightbox('img/r22.mp4', 'video')">
+                                <img src="img/r22.jpg" alt="02.mp4">
+                                <div class="play-btn">▶</div>
+                                <span>02.mp4</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-date">2023-8-31</div>
+                        <h3>探索二号火箭</h3>
+                        <div class="media-row">
+                            <img src="img/r23.jpg" alt="01.jpg" onclick="openLightbox(this.src, 'image')">
+                            <img src="img/r24.jpg" alt="02.jpg" onclick="openLightbox(this.src, 'image')">
+                            <div class="video-item" onclick="openLightbox('img/r25.mp4', 'video')">
+                                <img src="img/r25.jpg" alt="03.mp4">
+                                <div class="play-btn">▶</div>
+                                <span>03.mp4</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-date">2025-8-28</div>
+                        <h3>曦河一号</h3>
+                        <div class="media-row">
+                            <img src="img/r26.jpg" alt="01.jpg" onclick="openLightbox(this.src, 'image')">
+                            <img src="img/r27.jpg" alt="02.jpg" onclick="openLightbox(this.src, 'image')">
+                            <div class="video-item" onclick="openLightbox('img/r28.mp4', 'video')">
+                                <img src="img/r28.jpg" alt="03.mp4">
+                                <div class="play-btn">▶</div>
+                                <span>03.mp4</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-date">2026-03-13</div>
+                        <h3>全功能航电验证二号箭</h3>
+                        <div class="media-row">
+                            <video controls width="200" height="200">
+                                <source src="img/r20.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="">
+        <video id="lightbox-video" controls>
+            <source id="lightbox-src" src="" type="video/mp4">
+        </video>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 我的作品集. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
